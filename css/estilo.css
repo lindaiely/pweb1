@@ -23,7 +23,7 @@ body, html{
     display: flex;
 }
 .topo #icone{
-    padding: 0 0.5rem;
+    padding: 0.7rem;
 }
 .menu{
     margin: auto 1rem;
@@ -33,22 +33,27 @@ body, html{
     color: #3F50B4;
     font-weight: bold;
     margin: auto;
-    padding: 0.8rem;
+    padding: 0.7rem;
+    font-size: 25px;
 }
 .menu a:hover{
     border-bottom: 3px solid #3F50B4 ;
 }
 .conteudo{
     grid-area: conteudo;
-    background-image: url("../projeto/img/home.png");
+    background-image: url("../img/home.png");
     color: #e4e4e4;
 }
 .conteudo h1{
-    text-align: center;
+    width: 50%;
+    margin-left: 7rem;
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 .conteudo p{
-    padding: 0 3rem;
+    width: 50%;
+    margin: 1rem 7rem;
+    text-align: justify;
 }
 .rodape{
     grid-area: rodape;

@@ -55,6 +55,64 @@ body, html{
     margin: 1rem 7rem;
     text-align: justify;
 }
+main form{
+    margin: 3rem;
+}
+.field-form{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #DAEDE2;
+    outline: none;
+}
+.w-100{
+    float: left;
+    width: 50%;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+}
+.w-50{
+    float: left;
+    width: 50%;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+}
+.w-30{
+    float: left;
+    width: 30%;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+}
+.buscar{
+    float: left;
+    width: 35%;
+    margin: 3rem 0 2rem 3rem;
+    padding: 0 1rem;
+}
+#button-save{
+    float: left;
+    color: #fff;
+    background-color: #3F50B4;
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #DAEDE2;
+    outline: none;
+    margin: 1rem 1.5rem;
+    font-size: 15px;
+}
+#button{
+    float: left;
+    color: #fff;
+    background-color: #3F50B4;
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #DAEDE2;
+    outline: none;
+    margin: 4rem 0;
+    font-size: 15px;
+}
 .rodape{
     grid-area: rodape;
     background-color: #e4e4e4;
